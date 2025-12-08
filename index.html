@@ -26,6 +26,17 @@
     <meta name="twitter:image" content="https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=1200&h=630&fit=crop" />
     
     <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2">
+    
+    <!-- Handle client-side routing on GitHub Pages -->
+    <script>
+      (function() {
+        var redirect = sessionStorage.getItem('redirect');
+        if (redirect) {
+          sessionStorage.removeItem('redirect');
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
 </head>
 
   <body>
