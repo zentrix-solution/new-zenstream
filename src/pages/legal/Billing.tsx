@@ -93,7 +93,7 @@ export default function Billing() {
               <h2 className="font-display text-2xl font-semibold mb-4">Contact Billing</h2>
               <p className="text-muted-foreground mb-4">
                 Email: billing@fiberflow.com<br />
-                Phone: 1-800-FIBER (Option 2)<br />
+                Phone: (855) 683-7815<br />
                 Hours: Monday-Friday, 8AM-8PM EST
               </p>
             </section>

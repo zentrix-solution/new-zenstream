@@ -7,11 +7,11 @@ ZENSTREAM is your complete entertainment and connectivity solution, offering:
 - **Fiber Internet up to 10 Gbps** - Lightning-fast speeds for streaming, gaming, and work
 - **Bundle and Save** - Save up to $100/month compared to separate services
 - **No Contracts** - Cancel anytime with no penalties
-- **24/7 Support** - Call (833) 660-1996 for immediate assistance
+- **24/7 Support** - Call (855) 683-7815 for immediate assistance
 
 ## Contact Us
 
-📞 **Phone:** (833) 660-1996 (Available 24/7)
+📞 **Phone:** (855) 683-7815 (Available 24/7)
 🌐 **Website:** https://zenstream.com
 📧 **Email:** support@zenstream.com
 

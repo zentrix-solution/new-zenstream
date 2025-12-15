@@ -233,7 +233,7 @@ export default function Plans() {
                 variant={plan.popular ? 'secondary' : 'default'}
                 asChild
               >
-                <a href="tel:8336601996">
+                <a href="tel:8556837815">
                   Get Started
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                 </a>

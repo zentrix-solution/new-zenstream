@@ -66,12 +66,12 @@ export function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden lg:flex items-center gap-4">
-            <a href="tel:8336601996" className="flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+            <a href="tel:8556837815" className="flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
               <Phone className="w-4 h-4" />
-              (833) 660-1996
+              (855) 683-7815
             </a>
             <Button asChild className="group">
-              <a href="tel:8336601996">
+              <a href="tel:8556837815">
                 Get Started
                 <motion.span
                   className="ml-2"

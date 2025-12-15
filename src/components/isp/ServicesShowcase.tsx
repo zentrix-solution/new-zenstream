@@ -53,12 +53,12 @@ export function ServicesShowcase() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild>
-                <a href="tel:8336601996">View Channel Lineup</a>
+                <a href="tel:8556837815">View Channel Lineup</a>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:8336601996" className="flex items-center gap-2">
+                <a href="tel:8556837815" className="flex items-center gap-2">
                   <Phone className="w-4 h-4" />
-                  (833) 660-1996
+                  (855) 683-7815
                 </a>
               </Button>
             </div>
@@ -209,12 +209,12 @@ export function ServicesShowcase() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild>
-                <a href="tel:8336601996">View Internet Plans</a>
+                <a href="tel:8556837815">View Internet Plans</a>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:8336601996" className="flex items-center gap-2">
+                <a href="tel:8556837815" className="flex items-center gap-2">
                   <Phone className="w-4 h-4" />
-                  (833) 660-1996
+                  (855) 683-7815
                 </a>
               </Button>
             </div>

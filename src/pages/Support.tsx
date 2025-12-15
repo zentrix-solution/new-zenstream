@@ -219,7 +219,7 @@ export default function Support() {
               <p className="text-muted-foreground mt-1">Quick answers to common questions</p>
             </div>
             <Button variant="outline" asChild>
-              <a href="tel:8336601996">View All FAQs</a>
+              <a href="tel:8556837815">View All FAQs</a>
             </Button>
           </div>
           

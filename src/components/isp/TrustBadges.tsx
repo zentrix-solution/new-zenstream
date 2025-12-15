@@ -7,7 +7,7 @@ const badges = [
   { icon: Award, label: 'Best Value', sublabel: 'Bundle Deals' },
   { icon: Shield, label: '99.99% Uptime', sublabel: 'Guaranteed' },
   { icon: Star, label: '4.9/5 Rating', sublabel: '500K+ Reviews' },
-  { icon: Phone, label: '(833) 660-1996', sublabel: '24/7 Support' },
+  { icon: Phone, label: '(855) 683-7815', sublabel: '24/7 Support' },
 ];
 
 export function TrustBadges() {

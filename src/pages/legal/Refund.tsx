@@ -66,7 +66,7 @@ export default function Refund() {
               <h2 className="font-display text-2xl font-semibold mb-4">How to Request a Refund</h2>
               <p className="text-muted-foreground mb-4">
                 To request a refund, contact our billing department at billing@fiberflow.com or call 
-                1-800-FIBER. Please have your account number ready.
+                (855) 683-7815. Please have your account number ready.
               </p>
             </section>
           </div>

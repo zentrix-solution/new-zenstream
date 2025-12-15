@@ -99,8 +99,8 @@ export function HeroSection() {
               className="flex items-center gap-2 mb-8 justify-center lg:justify-start"
             >
               <Phone className="w-5 h-5 text-primary" />
-              <a href="tel:8336601996" className="text-xl font-semibold text-primary hover:underline">
-                (833) 660-1996
+              <a href="tel:8556837815" className="text-xl font-semibold text-primary hover:underline">
+                (855) 683-7815
               </a>
               <span className="text-muted-foreground">- Call Now!</span>
             </motion.div>

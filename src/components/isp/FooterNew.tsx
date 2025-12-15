@@ -61,11 +61,11 @@ export function Footer() {
               <div className="bg-gradient-to-r from-primary/20 to-purple-500/20 rounded-2xl p-6 border border-primary/20 backdrop-blur-sm">
                 <p className="text-white/90 text-sm mb-3">Ready to get started?</p>
                 <a 
-                  href="tel:8336601996"
+                  href="tel:8556837815"
                   className="flex items-center gap-2 text-2xl font-bold text-white hover:text-primary transition-colors mb-2"
                 >
                   <Phone className="w-6 h-6" />
-                  (833) 660-1996
+                  (855) 683-7815
                 </a>
                 <p className="text-gray-400 text-xs">Available 24/7 for your convenience</p>
               </div>

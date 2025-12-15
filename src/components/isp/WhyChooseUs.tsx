@@ -32,7 +32,7 @@ const features = [
   {
     icon: Headphones,
     title: '24/7 Expert Support',
-    description: 'Call (833) 660-1996 anytime - real humans ready to help immediately.',
+    description: 'Call (855) 683-7815 anytime - real humans ready to help immediately.',
   },
 ];
 

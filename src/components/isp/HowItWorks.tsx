@@ -7,7 +7,7 @@ const steps = [
   {
     number: '01',
     icon: MapPin,
-    title: 'Call (833) 660-1996',
+    title: 'Call (855) 683-7815',
     description: 'Speak with our experts to check availability and find the perfect entertainment package for your needs.',
   },
   {

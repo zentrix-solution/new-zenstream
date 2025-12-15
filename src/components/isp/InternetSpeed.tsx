@@ -116,7 +116,7 @@ export function InternetSpeed() {
               </ul>
 
               <Button asChild className="w-full" variant={tier.popular ? 'default' : 'outline'}>
-                <a href="tel:8336601996">Get Started</a>
+                <a href="tel:8556837815">Get Started</a>
               </Button>
             </motion.div>
           ))}
@@ -162,7 +162,7 @@ export function InternetSpeed() {
               <Upload className="w-4 h-4 inline ml-3 mr-1" />
             </p>
             <p className="text-lg font-semibold">
-              Call <a href="tel:8336601996" className="text-primary hover:underline">(833) 660-1996</a> to upgrade today
+              Call <a href="tel:8556837815" className="text-primary hover:underline">(855) 683-7815</a> to upgrade today
             </p>
           </div>
         </motion.div>

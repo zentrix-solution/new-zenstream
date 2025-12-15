@@ -81,11 +81,11 @@ export function StreamingChannels() {
             From blockbuster movies to live sports, news to kids shows - ZENSTREAM has it all
           </p>
           <a 
-            href="tel:8336601996" 
+            href="tel:8556837815" 
             className="inline-flex items-center gap-2 text-xl font-semibold text-primary hover:underline"
           >
             <Tv className="w-5 h-5" />
-            Call (833) 660-1996 to get started
+            Call (855) 683-7815 to get started
           </a>
         </motion.div>
 

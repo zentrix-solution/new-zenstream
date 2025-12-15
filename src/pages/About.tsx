@@ -151,7 +151,7 @@ export default function About() {
               Every day, we work to exceed expectations and create experiences that bring joy to your home.
             </p>
             <Button size="lg" asChild>
-              <a href="tel:8336601996">Explore Our Services</a>
+              <a href="tel:8556837815">Explore Our Services</a>
             </Button>
           </motion.div>
 
@@ -288,13 +288,13 @@ export default function About() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" asChild className="text-base">
-                <a href="tel:8336601996" className="flex items-center gap-2">
+                <a href="tel:8556837815" className="flex items-center gap-2">
                   <Clock className="w-5 h-5" />
-                  (833) 660-1996
+                  (855) 683-7815
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild className="text-base border-white/30 text-white hover:bg-white/10">
-                <a href="tel:8336601996">View Plans</a>
+                <a href="tel:8556837815">View Plans</a>
               </Button>
             </div>
           </div>

@@ -41,7 +41,7 @@ const testimonials = [
     name: 'Jennifer Lopez',
     role: 'Cord-Cutter Convert',
     avatar: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=100&h=100&fit=crop',
-    content: 'Finally ditched cable and satellite! ZENSTREAM gives me more channels, better internet, and saves me $75/month. Setup was easy and (833) 660-1996 support is available 24/7!',
+    content: 'Finally ditched cable and satellite! ZENSTREAM gives me more channels, better internet, and saves me $75/month. Setup was easy and (855) 683-7815 support is available 24/7!',
     rating: 5,
     verified: true,
   },

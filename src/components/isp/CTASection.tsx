@@ -50,11 +50,11 @@ export function CTASection() {
               className="mb-10"
             >
               <a 
-                href="tel:8336601996"
+                href="tel:8556837815"
                 className="inline-flex items-center gap-3 px-8 py-4 bg-primary-foreground text-primary rounded-2xl text-2xl font-bold hover:bg-primary-foreground/90 transition-all shadow-2xl hover:scale-105"
               >
                 <Phone className="w-6 h-6" />
-                (833) 660-1996
+                (855) 683-7815
               </a>
               <p className="text-primary-foreground/80 mt-4">Call now - Agents available 24/7</p>
             </motion.div>
@@ -66,7 +66,7 @@ export function CTASection() {
                 asChild
                 className="text-base bg-primary-foreground text-primary hover:bg-primary-foreground/90"
               >
-                <a href="tel:8336601996">
+                <a href="tel:8556837815">
                   View All Bundles
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </a>
@@ -77,7 +77,7 @@ export function CTASection() {
                 asChild
                 className="text-base border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
               >
-                <a href="tel:8336601996">Get a Quote</a>
+                <a href="tel:8556837815">Get a Quote</a>
               </Button>
             </div>
           </div>

@@ -93,9 +93,9 @@ export function Footer() {
             <p className="text-background/70 text-sm mb-4 max-w-sm">
               Your complete streaming and internet solution. Watch 500+ channels with lightning-fast internet up to 10 Gbps.
             </p>
-            <a href="tel:8336601996" className="flex items-center gap-2 text-background font-semibold hover:text-primary transition-colors mb-6">
+            <a href="tel:8556837815" className="flex items-center gap-2 text-background font-semibold hover:text-primary transition-colors mb-6">
               <Mail className="w-4 h-4" />
-              (833) 660-1996
+              (855) 683-7815
             </a>
             <div className="flex gap-3">
               {socialLinks.map((social) => (

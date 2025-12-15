@@ -149,7 +149,7 @@ const sections = [
       <p>
         For questions about these Terms of Service, please contact our legal team at{' '}
         <a href="mailto:legal@fiberflow.com" className="text-primary hover:underline">legal@fiberflow.com</a>{' '}
-        or call us at <a href="tel:1-800-342-3700" className="text-primary hover:underline">1-800-FIBER (1-800-342-3700)</a>.
+        or call us at <a href="tel:8556837815" className="text-primary hover:underline">(855) 683-7815</a>.
       </p>
     )
   }
