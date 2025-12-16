@@ -5,57 +5,57 @@ import { Link } from 'react-router-dom';
 
 const bundles = [
   {
-    name: 'Starter Bundle',
-    tagline: 'Perfect for individuals',
-    price: '$69.99',
-    originalPrice: '$99.98',
-    savings: '$30',
+    name: 'Basic Assistance',
+    tagline: 'One-time guidance',
+    price: '$29.99',
+    originalPrice: null,
+    savings: null,
     features: [
-      '200+ Streaming Channels',
-      '100 Mbps Internet',
-      'Cloud DVR (50 hours)',
-      '2 Device streaming',
-      'Basic Wi-Fi router',
-      '24/7 Support',
+      'Single consultation session',
+      'Service comparison guidance',
+      'Provider™ options overview',
+      'Basic setup assistance',
+      'Email support follow-up',
+      '7-day refund window',
     ],
     popular: false,
     gradient: 'from-blue-500 to-cyan-500',
   },
   {
-    name: 'Family Bundle',
-    tagline: 'Most popular choice',
-    price: '$99.99',
-    originalPrice: '$159.98',
-    savings: '$60',
+    name: 'Complete Support',
+    tagline: 'Most popular package',
+    price: '$79.99',
+    originalPrice: null,
+    savings: null,
     features: [
-      '500+ Streaming Channels',
-      '500 Mbps Internet',
-      'Cloud DVR (200 hours)',
-      '5 Device streaming',
-      'Premium Wi-Fi 6 router',
-      'Premium Sports Package',
-      'Free installation',
-      '24/7 Priority Support',
+      'Multi-session consultations',
+      'Detailed service comparisons',
+      'Provider™ research assistance',
+      'Setup & activation guidance',
+      'Priority phone support',
+      'Follow-up assistance (30 days)',
+      'Troubleshooting help',
+      '10-day refund window',
     ],
     popular: true,
     gradient: 'from-primary to-purple-500',
   },
   {
-    name: 'Ultimate Bundle',
-    tagline: 'For power users',
+    name: 'Premium Guidance',
+    tagline: 'Comprehensive assistance',
     price: '$149.99',
-    originalPrice: '$249.98',
-    savings: '$100',
+    originalPrice: null,
+    savings: null,
     features: [
-      'All 500+ Channels + Premium',
-      '1 Gbps Internet',
-      'Unlimited Cloud DVR',
-      'Unlimited devices',
-      'Mesh Wi-Fi 6E System',
-      'All Premium Channels',
-      'Free installation + setup',
-      'White-glove support',
-      '3 months free streaming apps',
+      'Unlimited consultations (60 days)',
+      'Comprehensive service analysis',
+      'Multi-provider™ comparisons',
+      'Complete setup assistance',
+      'Dedicated support specialist',
+      'Contract review guidance',
+      'Ongoing optimization help',
+      '24/7 priority assistance',
+      '15-day refund window',
     ],
     popular: false,
     gradient: 'from-purple-500 to-pink-500',
@@ -90,21 +90,26 @@ export function BundleDeals() {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4"
           >
             <Sparkles className="w-4 h-4" />
-            Save up to $100/month with bundles
+            Assistance packages for every need
           </motion.div>
           <h2 className="font-display text-3xl lg:text-5xl font-bold mb-4">
-            Bundle & save{' '}
-            <span className="text-gradient">big time</span>
+            Choose your{' '}
+            <span className="text-gradient">assistance level</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-6">
-            Complete entertainment and connectivity packages. No contracts, cancel anytime.
+            Independent guidance packages designed to help you make informed entertainment service decisions.
           </p>
+          <div className="mb-6 p-4 rounded-lg bg-muted/50 border border-border max-w-2xl mx-auto">
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              <strong className="text-foreground">Important:</strong> These are assistance service fees only. Provider charges are separate and billed directly by providers. We are not affiliated with any provider.
+            </p>
+          </div>
           <a 
-            href="tel:8336601996" 
+            href="tel:8556837815" 
             className="inline-flex items-center gap-2 text-xl font-semibold text-primary hover:underline"
           >
             <Phone className="w-5 h-5" />
-            (833) 660-1996 - Call to order now!
+            (855) 683-7815 - Speak with a specialist
           </a>
         </motion.div>
 
@@ -144,14 +149,8 @@ export function BundleDeals() {
 
                 {/* Pricing */}
                 <div className="text-center mb-6 pb-6 border-b border-border">
-                  <div className="flex items-center justify-center gap-2 mb-2">
-                    <span className="text-lg text-muted-foreground line-through">{bundle.originalPrice}</span>
-                    <span className="px-2 py-1 bg-green-500/10 text-green-600 text-xs font-bold rounded">
-                      Save {bundle.savings}
-                    </span>
-                  </div>
                   <div className="text-5xl font-bold text-primary mb-1">{bundle.price}</div>
-                  <p className="text-sm text-muted-foreground">/month - No contract</p>
+                  <p className="text-sm text-muted-foreground">Assistance service fee</p>
                 </div>
 
                 {/* Features */}
@@ -173,8 +172,8 @@ export function BundleDeals() {
                   variant={bundle.popular ? 'default' : 'outline'}
                   size="lg"
                 >
-                  <a href="tel:8336601996">
-                    Get This Bundle
+                  <a href="tel:8556837815">
+                    Get Assistance
                   </a>
                 </Button>
               </div>
@@ -190,19 +189,19 @@ export function BundleDeals() {
           className="grid md:grid-cols-3 gap-6"
         >
           <div className="text-center p-6 bg-card rounded-2xl border border-border">
-            <Wifi className="w-8 h-8 text-primary mx-auto mb-3" />
-            <h4 className="font-semibold mb-2">Free Installation</h4>
-            <p className="text-sm text-muted-foreground">Professional setup included</p>
+            <Sparkles className="w-8 h-8 text-primary mx-auto mb-3" />
+            <h4 className="font-semibold mb-2">Independent Service</h4>
+            <p className="text-sm text-muted-foreground">Not affiliated with any provider</p>
           </div>
           <div className="text-center p-6 bg-card rounded-2xl border border-border">
-            <Tv className="w-8 h-8 text-primary mx-auto mb-3" />
-            <h4 className="font-semibold mb-2">No Contracts</h4>
-            <p className="text-sm text-muted-foreground">Cancel anytime, no penalties</p>
+            <Star className="w-8 h-8 text-primary mx-auto mb-3" />
+            <h4 className="font-semibold mb-2">Transparent Pricing</h4>
+            <p className="text-sm text-muted-foreground">Clear fees, no hidden charges</p>
           </div>
           <div className="text-center p-6 bg-card rounded-2xl border border-border">
             <Phone className="w-8 h-8 text-primary mx-auto mb-3" />
-            <h4 className="font-semibold mb-2">24/7 Support</h4>
-            <p className="text-sm text-muted-foreground">Always here to help you</p>
+            <h4 className="font-semibold mb-2">Refund Eligible</h4>
+            <p className="text-sm text-muted-foreground">7-15 day refund window available</p>
           </div>
         </motion.div>
       </div>

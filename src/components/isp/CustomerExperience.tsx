@@ -7,30 +7,30 @@ const experiences = [
   {
     image: 'https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&h=400&fit=crop',
     title: 'Family Entertainment',
-    description: 'Keep the whole family entertained with content for all ages',
+    description: 'Get expert help finding the right entertainment options for your family',
     icon: Users,
-    stats: '500K+ Families',
+    stats: '10K+ Families Helped',
   },
   {
     image: 'https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?w=600&h=400&fit=crop',
-    title: 'Sports & Live Events',
-    description: 'Never miss a game with comprehensive sports coverage',
+    title: 'Service Setup',
+    description: 'Professional assistance setting up and configuring your services',
     icon: TrendingUp,
-    stats: 'All Major Sports',
+    stats: 'Expert Guidance',
   },
   {
     image: 'https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=600&h=400&fit=crop',
-    title: 'Work From Home',
-    description: 'Reliable internet for video calls and cloud applications',
+    title: 'Support & Help',
+    description: 'Independent advice and troubleshooting support whenever you need it',
     icon: Award,
-    stats: '99.9% Uptime',
+    stats: '24/7 Available',
   },
 ];
 
 const testimonialHighlight = {
-  quote: "Switching to ZENSTREAM was the best decision! We save $75/month and get way more channels plus faster internet. The kids love it, and so do we!",
+  quote: "ZENSTREAM helped us find the perfect entertainment setup! Their independent advice saved us time and money. The team walked us through everything and answered all our questions.",
   author: "Jennifer Martinez",
-  role: "Happy Customer",
+  role: "Satisfied Customer",
   rating: 5,
   image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop',
 };
@@ -54,7 +54,7 @@ export function CustomerExperience() {
             <span className="text-gradient">ZENSTREAM difference</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Join over 500,000 satisfied customers enjoying premium streaming and ultra-fast internet
+            Join over 10,000 customers who trust our independent assistance for their entertainment needs
           </p>
         </motion.div>
 
@@ -162,11 +162,11 @@ export function CustomerExperience() {
               <div className="mt-8 pt-8 border-t border-border">
                 <div className="grid grid-cols-3 gap-4 text-center">
                   <div>
-                    <p className="text-2xl font-bold text-primary">500K+</p>
-                    <p className="text-xs text-muted-foreground">Happy Customers</p>
+                    <p className="text-2xl font-bold text-primary">10K+</p>
+                    <p className="text-xs text-muted-foreground">Customers Helped</p>
                   </div>
                   <div>
-                    <p className="text-2xl font-bold text-primary">4.9★</p>
+                    <p className="text-2xl font-bold text-primary">4.8★</p>
                     <p className="text-xs text-muted-foreground">Average Rating</p>
                   </div>
                   <div>

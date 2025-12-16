@@ -191,19 +191,28 @@ export function Footer() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="mt-16 pt-8 border-t border-background/10 flex flex-col md:flex-row justify-between items-center gap-4"
+          className="mt-16 pt-8 border-t border-background/10 space-y-6"
         >
-          <p className="text-sm text-background/60">
-            © {new Date().getFullYear()} FiberFlow. All rights reserved.
-          </p>
-          <div className="flex items-center gap-4">
-            <span className="text-xs text-background/40">Secured by</span>
-            <div className="flex items-center gap-2">
-              {['SSL', '256-bit'].map((badge) => (
-                <span key={badge} className="px-3 py-1 rounded-full bg-background/10 text-xs font-medium">
-                  {badge}
-                </span>
-              ))}
+          {/* Independence Disclaimer */}
+          <div className="p-4 rounded-lg bg-background/20 border border-background/30">
+            <p className="text-sm text-background/80 leading-relaxed">
+              <strong className="text-background">Important Notice:</strong> ZENSTREAM is an independent third-party service assistance startup, launched in 2025, and is not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider. All trademarks belong to their respective owners. We provide guidance and support services for a separate fee.
+            </p>
+          </div>
+
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <p className="text-sm text-background/60">
+              © {new Date().getFullYear()} ZENSTREAM. All rights reserved. Independent assistance platform.
+            </p>
+            <div className="flex items-center gap-4">
+              <span className="text-xs text-background/40">Secured by</span>
+              <div className="flex items-center gap-2">
+                {['SSL', '256-bit'].map((badge) => (
+                  <span key={badge} className="px-3 py-1 rounded-full bg-background/10 text-xs font-medium">
+                    {badge}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
         </motion.div>

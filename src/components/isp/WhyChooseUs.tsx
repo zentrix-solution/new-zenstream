@@ -5,42 +5,42 @@ import { Shield, Zap, Clock, Headphones, Tv, Gift } from 'lucide-react';
 
 const features = [
   {
-    icon: Tv,
-    title: '500+ Premium Channels',
-    description: 'Watch live TV, sports, movies, and shows with crystal-clear 4K streaming.',
-  },
-  {
-    icon: Zap,
-    title: '10 Gbps Fiber Internet',
-    description: 'Lightning-fast speeds perfect for streaming, gaming, and working from home.',
-  },
-  {
-    icon: Gift,
-    title: 'Bundle & Save',
-    description: 'Get both services together and save up to $100/month compared to separate plans.',
-  },
-  {
-    icon: Clock,
-    title: 'No Contracts or Data Caps',
-    description: 'Unlimited streaming and data with no long-term commitments. Cancel anytime.',
+    icon: Headphones,
+    title: 'Expert Guidance',
+    description: 'Personalized assistance helping you navigate cable, internet, and streaming options.',
   },
   {
     icon: Shield,
-    title: '99.99% Uptime Guarantee',
-    description: 'Rock-solid reliability with redundant connections and 24/7 monitoring.',
+    title: 'Independent Service',
+    description: 'Completely independent from providers - unbiased support you can trust.',
   },
   {
-    icon: Headphones,
-    title: '24/7 Expert Support',
-    description: 'Call (855) 683-7815 anytime - real humans ready to help immediately.',
+    icon: Clock,
+    title: '24/7 Availability',
+    description: 'Assistance specialists available around the clock to support your needs.',
+  },
+  {
+    icon: Zap,
+    title: 'Fast Response',
+    description: 'Quick, efficient guidance to help you make informed entertainment service decisions.',
+  },
+  {
+    icon: Tv,
+    title: 'Multi-Service Support',
+    description: 'Help with cable, internet, streaming, and bundled service options.',
+  },
+  {
+    icon: Gift,
+    title: 'Transparent Fees',
+    description: 'Clear, upfront pricing for our assistance services with 7-15 day refund eligibility.',
   },
 ];
 
 const stats = [
-  { value: '920+', label: 'Happy Subscribers' },
-  { value: '99.9%', label: 'Uptime Guarantee' },
-  { value: '4.9★', label: 'Customer Rating' },
-  { value: '<2hr', label: 'Avg. Response Time' },
+  { value: '10K+', label: 'Customers Assisted' },
+  { value: '24/7', label: 'Support Available' },
+  { value: '4.8★', label: 'Customer Rating' },
+  { value: '<5min', label: 'Avg. Response Time' },
 ];
 
 export function WhyChooseUs() {
@@ -96,8 +96,8 @@ export function WhyChooseUs() {
               Why choose <span className="text-gradient">ZENSTREAM</span>?
             </h2>
             <p className="text-lg text-muted-foreground mb-10">
-              The ultimate streaming and internet bundle. Enjoy premium entertainment with 500+ channels 
-              plus fiber-fast internet that never slows down. All in one affordable package.
+              Independent assistance you can trust. We provide unbiased guidance to help you navigate 
+              entertainment service options, with transparent fees and 24/7 support from real people.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-6">

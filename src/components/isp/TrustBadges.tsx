@@ -2,12 +2,12 @@ import { motion } from 'framer-motion';
 import { Award, Shield, Zap, Clock, Star, CheckCircle, Tv, Phone } from 'lucide-react';
 
 const badges = [
-  { icon: Tv, label: '500+ Channels', sublabel: 'Live & On-Demand' },
-  { icon: Zap, label: '10 Gbps Internet', sublabel: 'Fiber Speed' },
-  { icon: Award, label: 'Best Value', sublabel: 'Bundle Deals' },
-  { icon: Shield, label: '99.99% Uptime', sublabel: 'Guaranteed' },
-  { icon: Star, label: '4.9/5 Rating', sublabel: '500K+ Reviews' },
-  { icon: Phone, label: '(855) 683-7815', sublabel: '24/7 Support' },
+  { icon: Shield, label: 'Independent', sublabel: 'Not Affiliated' },
+  { icon: CheckCircle, label: 'Transparent', sublabel: 'Clear Pricing' },
+  { icon: Star, label: '4.8/5 Rating', sublabel: 'Customer Reviews' },
+  { icon: Clock, label: '24/7 Support', sublabel: 'Always Available' },
+  { icon: Award, label: 'Expert Guidance', sublabel: 'Trusted Advice' },
+  { icon: Phone, label: '(855) 683-7815', sublabel: 'Call Anytime' },
 ];
 
 export function TrustBadges() {
@@ -21,7 +21,7 @@ export function TrustBadges() {
           className="flex items-center justify-center gap-4 mb-8"
         >
           <div className="h-px flex-1 bg-gradient-to-r from-transparent to-border" />
-          <span className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Trusted by 500,000+ customers</span>
+          <span className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Independent assistance since 2025</span>
           <div className="h-px flex-1 bg-gradient-to-l from-transparent to-border" />
         </motion.div>
         

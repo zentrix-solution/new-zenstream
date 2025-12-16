@@ -1,19 +1,36 @@
-# ZENSTREAM - Premium Streaming + Ultra-Fast Internet
+# ZENSTREAM - Independent Entertainment Service Assistance
 
 ## About ZENSTREAM
 
-ZENSTREAM is your complete entertainment and connectivity solution, offering:
-- **500+ Premium Streaming Channels** - Live TV, sports, movies, shows, and more
-- **Fiber Internet up to 10 Gbps** - Lightning-fast speeds for streaming, gaming, and work
-- **Bundle and Save** - Save up to $100/month compared to separate services
-- **No Contracts** - Cancel anytime with no penalties
-- **24/7 Support** - Call (855) 683-7815 for immediate assistance
+**IMPORTANT:** ZENSTREAM is an independent third-party service assistance startup, launched in 2025, and is not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider.
+
+ZENSTREAM provides independent assistance and guidance for entertainment services:
+- **Expert Guidance** - Help navigating cable, internet, and streaming options
+- **Unbiased Support** - Independent from all providers for trustworthy advice
+- **24/7 Availability** - Assistance specialists ready to help anytime
+- **Transparent Fees** - Clear pricing with 7-15 day refund eligibility
+- **No Provider Affiliation** - We work for you, not providers
+
+## What We Do
+
+We provide:
+- ✓ Personalized guidance for entertainment services
+- ✓ Help comparing options and features
+- ✓ Support with service selection
+- ✓ Educational information about providers™
+
+We do NOT:
+- ✗ Sell internet, cable, or streaming plans
+- ✗ Operate as an ISP or service provider
+- ✗ Have affiliations with providers
 
 ## Contact Us
 
 📞 **Phone:** (855) 683-7815 (Available 24/7)
 🌐 **Website:** https://zenstream.com
 📧 **Email:** support@zenstream.com
+
+**Greeting:** "Thank you for calling ZENSTREAM, an independent service assistance platform."
 
 ## Development
 

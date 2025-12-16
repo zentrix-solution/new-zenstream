@@ -31,16 +31,16 @@ export function CTASection() {
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-foreground/20 text-primary-foreground text-sm font-medium mb-6"
             >
               <Tv className="w-4 h-4" />
-              Limited time: Save $100/month on bundles!
+              Independent Assistance Service
             </motion.div>
 
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-primary-foreground mb-6 max-w-4xl mx-auto">
-              Ready to stream and connect? Call now to get started!
+              Need help with entertainment services? We're here to assist!
             </h2>
 
             <p className="text-lg text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-              Join thousands enjoying ZENSTREAM's premium streaming + ultra-fast internet bundle. 
-              Available in your area now!
+              Get expert guidance navigating cable, internet, and streaming options. 
+              Our independent team is ready to support you 24/7.
             </p>
 
             <motion.div
@@ -56,7 +56,7 @@ export function CTASection() {
                 <Phone className="w-6 h-6" />
                 (855) 683-7815
               </a>
-              <p className="text-primary-foreground/80 mt-4">Call now - Agents available 24/7</p>
+              <p className="text-primary-foreground/80 mt-4">Speak with an assistance specialist - Available 24/7</p>
             </motion.div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -67,7 +67,7 @@ export function CTASection() {
                 className="text-base bg-primary-foreground text-primary hover:bg-primary-foreground/90"
               >
                 <a href="tel:8556837815">
-                  View All Bundles
+                  Request Assistance
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </a>
               </Button>
@@ -77,7 +77,7 @@ export function CTASection() {
                 asChild
                 className="text-base border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
               >
-                <a href="tel:8556837815">Get a Quote</a>
+                <a href="/plans">View Support Packages</a>
               </Button>
             </div>
           </div>

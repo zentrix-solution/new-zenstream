@@ -4,9 +4,9 @@ import { ArrowRight, Zap, MapPin, Users, Wifi, Play, Shield, Clock, Tv, Phone } 
 import { Button } from '@/components/ui/button';
 
 const stats = [
-  { icon: Tv, value: '500+', label: 'Streaming Channels' },
-  { icon: Zap, value: '10 Gbps', label: 'Internet Speed' },
-  { icon: Users, value: '500K+', label: 'Happy Customers' },
+  { icon: Users, value: '10K+', label: 'Customers Assisted' },
+  { icon: Clock, value: '24/7', label: 'Support Available' },
+  { icon: Shield, value: '100%', label: 'Independent Service' },
 ];
 
 const floatingCards = [
@@ -16,7 +16,7 @@ const floatingCards = [
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen pt-20 lg:pt-0 flex items-center overflow-hidden">
+    <section className="relative min-h-screen pt-32 lg:pt-24 flex items-center overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 gradient-hero" />
@@ -62,7 +62,7 @@ export function HeroSection() {
               >
                 <Tv className="w-4 h-4" />
               </motion.div>
-              Complete Entertainment Bundle Available Now
+              Independent Service Assistance • Launched 2025
             </motion.div>
             
             <motion.h1 
@@ -71,25 +71,34 @@ export function HeroSection() {
               transition={{ delay: 0.3 }}
               className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6"
             >
-              Premium{' '}
+              Get Expert Help with{' '}
               <span className="text-gradient relative">
-              Entertainment
+              Cable, Internet
               <motion.span
                 className="absolute -inset-2 bg-primary/10 rounded-lg -z-10"
                 animate={{ opacity: [0, 0.5, 0] }}
                 transition={{ duration: 2, repeat: Infinity }}
               />
               </span>{' '}
-              & High-Speed Internet
+              & Streaming Services
             </motion.h1>
             
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
-              className="text-lg text-muted-foreground mb-6 max-w-xl mx-auto lg:mx-0"
+              className="text-lg text-muted-foreground mb-4 max-w-xl mx-auto lg:mx-0"
             >
-              500+ channels and up to 10 Gbps speeds. Everything you need in one bundle.
+              Independent third-party assistance platform helping you compare providers™, select the right plans, and set up your entertainment services. We're not affiliated with any provider—just here to help you make informed decisions.
+            </motion.p>
+            
+            <motion.p 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.45 }}
+              className="text-sm text-muted-foreground mb-8 max-w-xl mx-auto lg:mx-0 font-medium"
+            >
+              💡 Save time, avoid confusion, get personalized recommendations from our expert team.
             </motion.p>
 
             <motion.div
@@ -102,7 +111,7 @@ export function HeroSection() {
               <a href="tel:8556837815" className="text-xl font-semibold text-primary hover:underline">
                 (855) 683-7815
               </a>
-              <span className="text-muted-foreground">- Call Now!</span>
+              <span className="text-muted-foreground">- Get Assistance</span>
             </motion.div>
 
             <motion.div 
@@ -112,8 +121,8 @@ export function HeroSection() {
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12"
             >
               <Button size="lg" asChild className="text-base group">
-                <a href="tel:8336601996">
-                  View Plans
+                <a href="tel:8556837815">
+                  Request Help
                   <motion.span
                     className="ml-2 inline-block"
                     animate={{ x: [0, 4, 0] }}
@@ -124,9 +133,9 @@ export function HeroSection() {
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild className="text-base group">
-                <a href="tel:8336601996" className="flex items-center gap-2">
+                <a href="/plans" className="flex items-center gap-2">
                   <Play className="w-4 h-4 group-hover:scale-110 transition-transform" />
-                  Watch Demo
+                  View Assistance Packages
                 </a>
               </Button>
             </motion.div>
@@ -174,17 +183,17 @@ export function HeroSection() {
                   transition={{ duration: 3, repeat: Infinity }}
                 />
                 
-                {/* Speed Meter */}
+                {/* Service Dashboard */}
                 <div className="relative z-10">
                   <div className="flex items-center justify-between mb-6">
                     <div>
-                      <p className="text-sm text-muted-foreground mb-1">Current Speed</p>
+                      <p className="text-sm text-muted-foreground mb-1">Assistance Status</p>
                       <motion.p 
-                        className="font-display text-4xl font-bold text-primary"
+                        className="font-display text-3xl font-bold text-primary"
                         animate={{ opacity: [1, 0.7, 1] }}
                         transition={{ duration: 1.5, repeat: Infinity }}
                       >
-                        945 Mbps
+                        Expert Support Ready
                       </motion.p>
                     </div>
                     <motion.div 
@@ -192,11 +201,11 @@ export function HeroSection() {
                       transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
                       className="w-20 h-20 rounded-full border-4 border-primary/30 border-t-primary flex items-center justify-center"
                     >
-                      <Wifi className="w-8 h-8 text-primary" />
+                      <Shield className="w-8 h-8 text-primary" />
                     </motion.div>
                   </div>
                   
-                  {/* Speed Graph */}
+                  {/* Service Activity */}
                   <div className="h-32 bg-secondary/50 rounded-2xl p-4 mb-6 overflow-hidden">
                     <div className="flex items-end h-full gap-1">
                       {Array.from({ length: 24 }).map((_, i) => (
@@ -211,12 +220,12 @@ export function HeroSection() {
                     </div>
                   </div>
                   
-                  {/* Connection Stats */}
+                  {/* Service Stats */}
                   <div className="grid grid-cols-3 gap-4">
                     {[
-                      { label: 'Download', value: '945 Mbps', color: 'text-primary' },
-                      { label: 'Upload', value: '890 Mbps', color: 'text-blue-500' },
-                      { label: 'Ping', value: '3 ms', color: 'text-green-500' },
+                      { label: 'Response Time', value: '< 5 min', color: 'text-primary' },
+                      { label: 'Support Hours', value: '24/7', color: 'text-blue-500' },
+                      { label: 'Satisfaction', value: '4.8/5', color: 'text-green-500' },
                     ].map((item, i) => (
                       <motion.div
                         key={item.label}
@@ -248,8 +257,8 @@ export function HeroSection() {
                     <div className="w-3 h-3 rounded-full bg-green-500" />
                   </motion.div>
                   <div>
-                    <p className="text-xs text-muted-foreground">Network Status</p>
-                    <p className="font-semibold text-green-500">All Systems Go</p>
+                    <p className="text-xs text-muted-foreground">Support Status</p>
+                    <p className="font-semibold text-green-500">Available Now</p>
                   </div>
                 </div>
               </motion.div>
@@ -261,11 +270,11 @@ export function HeroSection() {
               >
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
-                    <Zap className="w-5 h-5 text-primary" />
+                    <Users className="w-5 h-5 text-primary" />
                   </div>
                   <div>
-                    <p className="text-xs text-muted-foreground">Uptime</p>
-                    <p className="font-semibold">99.99%</p>
+                    <p className="text-xs text-muted-foreground">Assisted Today</p>
+                    <p className="font-semibold">150+</p>
                   </div>
                 </div>
               </motion.div>

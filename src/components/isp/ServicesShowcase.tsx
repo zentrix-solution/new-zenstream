@@ -22,25 +22,25 @@ export function ServicesShowcase() {
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
               <Tv className="w-4 h-4" />
-              Premium Streaming
+              Streaming Assistance
             </div>
             <h2 className="font-display text-4xl lg:text-5xl font-bold mb-6">
-              500+ channels of{' '}
-              <span className="text-gradient">endless entertainment</span>
+              Expert guidance for{' '}
+              <span className="text-gradient">your entertainment needs</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              From blockbuster movies to live sports, news to kids shows - watch everything on any device, 
-              anytime, anywhere. Includes premium channels, Cloud DVR, and 4K streaming.
+              Get professional assistance with selecting, setting up, and managing your streaming services. 
+              We help you navigate options from various providers and optimize your entertainment experience.
             </p>
             
             <div className="grid sm:grid-cols-2 gap-4 mb-8">
               {[
-                'HBO, Showtime & Premium Networks',
-                'All Major Sports Channels',
-                'International Content',
-                'Kids & Family Programming',
-                'Cloud DVR Included',
-                '4K Ultra HD Quality'
+                'Provider™ Plan Comparison',
+                'Setup & Configuration Help',
+                'Account Management Guidance',
+                'Troubleshooting Support',
+                'Independent Recommendations',
+                'Device Setup Assistance'
               ].map((feature) => (
                 <div key={feature} className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -53,7 +53,7 @@ export function ServicesShowcase() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild>
-                <a href="tel:8556837815">View Channel Lineup</a>
+                <a href="tel:8556837815">Get Assistance</a>
               </Button>
               <Button size="lg" variant="outline" asChild>
                 <a href="tel:8556837815" className="flex items-center gap-2">
@@ -86,16 +86,16 @@ export function ServicesShowcase() {
                 className="absolute bottom-6 left-6 right-6 grid grid-cols-3 gap-3"
               >
                 <div className="bg-white/90 backdrop-blur-sm rounded-xl p-3 text-center">
-                  <p className="text-2xl font-bold text-primary">500+</p>
-                  <p className="text-xs text-muted-foreground">Channels</p>
+                  <p className="text-2xl font-bold text-primary">10K+</p>
+                  <p className="text-xs text-muted-foreground">Assisted</p>
                 </div>
                 <div className="bg-white/90 backdrop-blur-sm rounded-xl p-3 text-center">
-                  <p className="text-2xl font-bold text-primary">4K</p>
-                  <p className="text-xs text-muted-foreground">Ultra HD</p>
+                  <p className="text-2xl font-bold text-primary">4.8★</p>
+                  <p className="text-xs text-muted-foreground">Rating</p>
                 </div>
                 <div className="bg-white/90 backdrop-blur-sm rounded-xl p-3 text-center">
-                  <p className="text-2xl font-bold text-primary">DVR</p>
-                  <p className="text-xs text-muted-foreground">Cloud</p>
+                  <p className="text-2xl font-bold text-primary">24/7</p>
+                  <p className="text-xs text-muted-foreground">Support</p>
                 </div>
               </motion.div>
 
@@ -139,7 +139,7 @@ export function ServicesShowcase() {
               >
                 <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6">
                   <div className="flex items-center justify-between mb-3">
-                    <span className="text-sm font-medium text-muted-foreground">Download Speed</span>
+                    <span className="text-sm font-medium text-muted-foreground">Service Quality</span>
                     <Zap className="w-5 h-5 text-primary" />
                   </div>
                   <motion.div
@@ -148,7 +148,7 @@ export function ServicesShowcase() {
                     transition={{ delay: 0.8, duration: 1.5 }}
                     className="h-3 bg-gradient-to-r from-primary to-purple-500 rounded-full mb-2"
                   />
-                  <p className="text-3xl font-bold text-primary">10 Gbps</p>
+                  <p className="text-3xl font-bold text-primary">Expert</p>
                 </div>
               </motion.div>
 
@@ -161,11 +161,11 @@ export function ServicesShowcase() {
               >
                 <div className="bg-white/90 backdrop-blur-sm rounded-xl px-4 py-2 flex items-center gap-2">
                   <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-                  <span className="text-sm font-medium">99.9% Uptime</span>
+                  <span className="text-sm font-medium">Available 24/7</span>
                 </div>
                 <div className="bg-white/90 backdrop-blur-sm rounded-xl px-4 py-2 flex items-center gap-2">
                   <Wifi className="w-4 h-4 text-primary" />
-                  <span className="text-sm font-medium">Fiber-Fast</span>
+                  <span className="text-sm font-medium">Remote Help</span>
                 </div>
               </motion.div>
             </div>
@@ -178,25 +178,25 @@ export function ServicesShowcase() {
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
               <Wifi className="w-4 h-4" />
-              Ultra-Fast Internet
+              Internet Assistance
             </div>
             <h2 className="font-display text-4xl lg:text-5xl font-bold mb-6">
-              Fiber internet with{' '}
-              <span className="text-gradient">unmatched speed</span>
+              Professional help with{' '}
+              <span className="text-gradient">your connectivity</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Experience true fiber optic speeds up to 10 Gbps with symmetrical upload and download. 
-              Perfect for streaming 4K/8K, gaming, video calls, and smart homes. Unlimited data included.
+              Get expert assistance choosing and setting up internet services from various providers™. 
+              We help you understand options, compare speeds, and optimize your home network.
             </p>
             
             <div className="grid sm:grid-cols-2 gap-4 mb-8">
               {[
-                'Up to 10 Gbps Speeds',
-                'Symmetrical Upload/Download',
-                'Unlimited Data - No Caps',
-                'Zero Throttling',
-                'Wi-Fi 6 Router Included',
-                'Professional Installation'
+                'Speed Plan Comparison',
+                'Provider™ Options Review',
+                'Router Setup Help',
+                'Network Optimization',
+                'Wi-Fi Configuration',
+                'Connection Troubleshooting'
               ].map((feature) => (
                 <div key={feature} className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -209,7 +209,7 @@ export function ServicesShowcase() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild>
-                <a href="tel:8556837815">View Internet Plans</a>
+                <a href="tel:8556837815">Request Help</a>
               </Button>
               <Button size="lg" variant="outline" asChild>
                 <a href="tel:8556837815" className="flex items-center gap-2">

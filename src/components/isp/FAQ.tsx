@@ -10,74 +10,95 @@ import {
 
 const faqCategories = [
   {
-    title: 'Streaming Service',
+    title: 'About Our Service',
     questions: [
       {
-        q: 'How many channels are included with ZENSTREAM?',
-        a: 'ZENSTREAM offers over 500 premium channels including sports, movies, news, entertainment, kids programming, and international content. All packages include HD and 4K channels where available.',
+        q: 'Are you an official cable or internet service provider?',
+        a: 'No. ZENSTREAM is an independent third-party assistance platform. We are not a service provider, nor are we affiliated with, endorsed by, or sponsored by any cable, internet, or streaming company. We provide guidance and support to help you with your entertainment service needs.',
       },
       {
-        q: 'Can I watch on multiple devices at once?',
-        a: 'Yes! Depending on your bundle, you can stream on 2-5 devices simultaneously. Our Ultimate Bundle allows unlimited concurrent streams.',
+        q: 'Do you sell internet, cable, or streaming plans?',
+        a: 'No. We do not sell service plans directly. Our role is to provide assistance, guidance, and support to help you navigate and understand your options with various service providers. We help facilitate your decision-making process.',
       },
       {
-        q: 'Does ZENSTREAM include DVR?',
-        a: 'All plans include Cloud DVR. The Starter Bundle gets 50 hours, Family Bundle gets 200 hours, and Ultimate Bundle includes unlimited Cloud DVR storage.',
+        q: 'What exactly is ZENSTREAM?',
+        a: 'ZENSTREAM is an independent assistance startup launched in 2025. We specialize in helping customers understand their cable, internet, and streaming options, providing personalized guidance, support with service selection, and ongoing assistance with entertainment service needs.',
       },
       {
-        q: 'Can I watch ZENSTREAM on my smart TV?',
-        a: 'Absolutely! ZENSTREAM works on smart TVs, streaming devices (Roku, Fire TV, Apple TV), smartphones, tablets, and web browsers.',
+        q: 'Are you affiliated with any service providers?',
+        a: 'No. We maintain complete independence from all cable, internet, and streaming providers. We may reference various providers™ and services® for educational and guidance purposes only, but we have no partnerships, affiliations, or authorization agreements with any provider.',
       },
     ],
   },
   {
-    title: 'Internet Service',
+    title: 'Fees & Billing',
     questions: [
       {
-        q: 'Are there any data caps?',
-        a: 'No! All ZENSTREAM bundles come with truly unlimited data. Stream, download, and game as much as you want without worrying about overages or throttling.',
+        q: 'Do you charge for your services?',
+        a: 'Yes. ZENSTREAM charges a separate service fee for our assistance and guidance. This fee is completely independent from any service provider charges you may have. Our fees cover the personalized support, guidance, and assistance we provide.',
       },
       {
-        q: 'What internet speeds do you offer?',
-        a: 'We offer fiber internet speeds from 100 Mbps up to 10 Gbps. Our most popular Family Bundle includes 500 Mbps, perfect for streaming and gaming.',
+        q: 'Will I still be billed by my service provider?',
+        a: 'Yes. Any cable, internet, or streaming service you subscribe to will bill you directly according to their own terms and rates. Our assistance fee is separate and does not include or replace provider billing. You will receive separate invoices from your provider and from us.',
       },
       {
-        q: 'How fast can I download/upload files?',
-        a: 'Our fiber internet provides symmetrical speeds - meaning upload and download speeds are the same. With 1 Gbps, you can download a full HD movie in under 30 seconds!',
+        q: 'What payment methods do you accept?',
+        a: 'We accept major credit cards, debit cards, and secure online payment methods for our assistance services. Payment is processed through our secure platform and is completely separate from any provider payments.',
+      },
+      {
+        q: 'Are there any hidden fees?',
+        a: 'No. We believe in transparency. Our assistance fees are clearly stated upfront before you engage our services. There are no hidden charges from ZENSTREAM. However, please note that service providers may have their own fees and terms.',
       },
     ],
   },
   {
-    title: 'Bundles & Pricing',
+    title: 'Refund Policy',
     questions: [
       {
-        q: 'How much can I save by bundling?',
-        a: 'You can save up to $100/month by bundling streaming and internet together compared to purchasing separately. Plus, no contracts or hidden fees!',
+        q: 'Are your services refundable?',
+        a: 'Yes. Refund requests can be submitted within 7 to 15 days of service purchase, depending on the type of assistance provided and whether the assistance has already been delivered. Please review our complete Refund Policy page for full eligibility details and conditions.',
       },
       {
-        q: 'Can I customize my bundle?',
-        a: 'Yes! Call (833) 660-1996 to speak with an agent who can help customize a bundle that fits your needs and budget perfectly.',
+        q: 'How do I request a refund?',
+        a: 'To request a refund, contact our billing department at (855) 683-7815 or email billing@zenstream.com. Please have your service reference number ready. Refund eligibility will be reviewed based on the terms outlined in our Refund Policy.',
       },
       {
-        q: 'Are there any contracts or cancellation fees?',
-        a: 'No contracts required! You can cancel anytime without penalties. We believe in earning your business every month, not locking you in.',
+        q: 'Does the refund include provider charges?',
+        a: 'No. Our refund policy only applies to ZENSTREAM assistance fees. Any charges from cable, internet, or streaming providers are governed by their own refund policies. We cannot process refunds for provider charges as we are an independent third-party service.',
       },
     ],
   },
   {
-    title: 'Installation & Support',
+    title: 'Privacy & Security',
     questions: [
       {
-        q: 'How long does installation take?',
-        a: 'Professional installation typically takes 2-4 hours. Our technicians will set up your internet, configure your Wi-Fi, and help you get started with streaming.',
+        q: 'Do you need my account passwords or sensitive information?',
+        a: 'No. We never request provider account passwords, login credentials, or sensitive financial information beyond what\'s needed to process our own service fees. We respect your privacy and security. You should never share provider passwords with anyone.',
       },
       {
-        q: 'Is installation free?',
-        a: 'Yes! Free professional installation is included with all ZENSTREAM bundles. We\'ll handle everything from fiber connection to device setup.',
+        q: 'How do you protect my information?',
+        a: 'We use industry-standard encryption (SSL, 256-bit) and security measures to protect your personal information. Your data is stored securely and never shared with unauthorized parties. Please review our Privacy Policy for complete details on data handling.',
       },
       {
-        q: 'What if I need help after installation?',
-        a: 'Call (833) 660-1996 anytime! Our 24/7 support team is always available to help with any questions or technical issues.',
+        q: 'Which providers do you support?',
+        a: 'We provide guidance and assistance for a wide range of cable, internet, and streaming services. We may reference multiple providers™ for educational purposes only. This does not imply any affiliation, partnership, or authorization from those providers.',
+      },
+    ],
+  },
+  {
+    title: 'Support & Assistance',
+    questions: [
+      {
+        q: 'When is support available?',
+        a: 'Our assistance team is available 24/7. You can reach us at (855) 683-7815 anytime. When you call, you\'ll hear: "Thank you for calling ZENSTREAM, an independent service assistance platform." Our team is ready to guide and support you with your entertainment service needs.',
+      },
+      {
+        q: 'What type of assistance do you provide?',
+        a: 'We provide personalized guidance to help you understand your options, navigate service choices, compare features and pricing, troubleshoot common issues, and make informed decisions about your cable, internet, and streaming needs. We facilitate your understanding but don\'t directly provide or sell services.',
+      },
+      {
+        q: 'Can you set up services for me?',
+        a: 'We provide guidance and support throughout the process, but actual service activation is done by the providers themselves. We help facilitate your understanding and decision-making, but the contractual relationship for service is between you and the provider you choose.',
       },
     ],
   },
@@ -98,11 +119,10 @@ export function FAQ() {
           className="text-center mb-16"
         >
           <h2 className="font-display text-3xl lg:text-5xl font-bold mb-4">
-            Frequently asked <span className="text-gradient">questions</span>
+            Frequently Asked <span className="text-gradient">Questions</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-4">
-            Got questions? We've got answers. If you can't find what you're looking for, 
-            our support team is just a click away.
+            Learn more about our independent assistance services. We're here to guide and support you with your entertainment service needs.
           </p>
         </motion.div>
 

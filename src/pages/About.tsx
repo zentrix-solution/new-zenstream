@@ -6,45 +6,45 @@ import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 
 const stats = [
-  { value: '500K+', label: 'Happy Customers', icon: Users },
-  { value: '500+', label: 'Premium Channels', icon: Tv },
-  { value: '10 Gbps', label: 'Maximum Speed', icon: Zap },
-  { value: '4.9★', label: 'Customer Rating', icon: Star },
+  { value: '10K+', label: 'Customers Assisted', icon: Users },
+  { value: '24/7', label: 'Support Available', icon: Clock },
+  { value: '2025', label: 'Year Founded', icon: TrendingUp },
+  { value: '4.8★', label: 'Customer Rating', icon: Star },
 ];
 
 const values = [
   {
-    icon: Target,
-    title: 'Customer First',
-    description: 'Every decision we make prioritizes your satisfaction and experience.',
+    icon: Shield,
+    title: 'Independence',
+    description: 'Completely independent from providers - unbiased guidance you can trust.',
     color: 'from-blue-500 to-cyan-500',
   },
   {
-    icon: Shield,
-    title: 'Reliability',
-    description: '99.99% uptime guarantee ensures you stay connected when it matters most.',
+    icon: Heart,
+    title: 'Customer Care',
+    description: 'Every customer receives personalized attention and dedicated support.',
     color: 'from-purple-500 to-pink-500',
   },
   {
-    icon: Heart,
-    title: 'Innovation',
-    description: 'Continuously improving our services with cutting-edge technology.',
+    icon: Target,
+    title: 'Transparency',
+    description: 'Clear, upfront pricing and honest guidance without hidden agendas.',
     color: 'from-red-500 to-orange-500',
   },
   {
     icon: Award,
-    title: 'Excellence',
-    description: 'Committed to delivering the highest quality service and support.',
+    title: 'Expertise',
+    description: 'Knowledgeable specialists dedicated to helping you make informed decisions.',
     color: 'from-green-500 to-emerald-500',
   },
 ];
 
 const milestones = [
-  { year: '2018', title: 'Company Founded', description: 'Started with a vision to revolutionize home entertainment' },
-  { year: '2019', title: '100K Customers', description: 'Reached our first major milestone in customer satisfaction' },
-  { year: '2021', title: '10 Gbps Launch', description: 'Introduced industry-leading fiber speeds' },
-  { year: '2023', title: '500+ Channels', description: 'Expanded to comprehensive entertainment packages' },
-  { year: '2025', title: '500K+ Customers', description: 'Serving families across the nation' },
+  { year: '2025', title: 'Company Founded', description: 'Launched as an independent assistance platform for entertainment services' },
+  { year: '2025', title: 'First 1K Customers', description: 'Helped our first thousand customers navigate service options' },
+  { year: '2025', title: '24/7 Support', description: 'Expanded to round-the-clock assistance availability' },
+  { year: '2025', title: 'Growing Team', description: 'Building our team of dedicated assistance specialists' },
+  { year: 'Future', title: 'Nationwide Reach', description: 'Committed to helping customers across America' },
 ];
 
 const team = [
@@ -93,13 +93,20 @@ export default function About() {
               About ZENSTREAM
             </motion.span>
             <h1 className="font-display text-4xl lg:text-6xl font-bold mb-6">
-              Entertainment and connectivity{' '}
-              <span className="text-gradient">reimagined</span>
+              Independent assistance{' '}
+              <span className="text-gradient">you can trust</span>
             </h1>
             <p className="text-lg text-muted-foreground mb-8">
-              We're on a mission to deliver exceptional entertainment experiences and ultra-fast connectivity 
-              that brings families together and powers modern life.
+              Launched in 2025, we're an independent startup dedicated to helping customers navigate cable, 
+              internet, and streaming options with unbiased guidance and transparent support.
             </p>
+
+            {/* Independent Disclaimer */}
+            <div className="max-w-2xl mx-auto p-4 rounded-lg bg-muted/50 border border-border text-left">
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                <strong className="text-foreground">Independent Service:</strong> ZENSTREAM is not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming provider. We provide independent assistance services for a separate fee.
+              </p>
+            </div>
           </motion.div>
         </div>
       </div>
@@ -138,20 +145,21 @@ export default function About() {
               Our <span className="text-gradient">Story</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-6">
-              Founded in 2018, ZENSTREAM began with a simple vision: to create a service that truly understands 
-              what modern families need. We saw the frustration of juggling multiple bills, dealing with unreliable 
-              connections, and missing out on favorite shows.
+              Founded in 2025, ZENSTREAM was created to address a critical need: independent, unbiased 
+              assistance for customers navigating the complex world of entertainment services. We recognized 
+              that people needed trustworthy guidance without provider pressure or hidden agendas.
             </p>
             <p className="text-lg text-muted-foreground mb-6">
-              Today, we're proud to serve over 500,000 customers nationwide, delivering not just services, 
-              but peace of mind. Our commitment to innovation and customer satisfaction has made us one of 
-              the fastest-growing providers in the industry.
+              As a startup, we're building something different - a company that puts customer education first. 
+              We don't sell services; we help you understand your options. We don't work for providers; 
+              we work for you.
             </p>
             <p className="text-lg text-muted-foreground mb-8">
-              Every day, we work to exceed expectations and create experiences that bring joy to your home.
+              Every day, we help customers make informed decisions about their entertainment services with 
+              honest guidance, transparent pricing, and dedicated support.
             </p>
             <Button size="lg" asChild>
-              <a href="tel:8556837815">Explore Our Services</a>
+              <a href="tel:8556837815">Speak With Our Team</a>
             </Button>
           </motion.div>
 

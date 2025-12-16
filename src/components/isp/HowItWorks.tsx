@@ -8,19 +8,19 @@ const steps = [
     number: '01',
     icon: MapPin,
     title: 'Call (855) 683-7815',
-    description: 'Speak with our experts to check availability and find the perfect entertainment package for your needs.',
+    description: 'Speak with our independent assistance specialists to discuss your entertainment service needs and options.',
   },
   {
     number: '02',
     icon: CreditCard,
-    title: 'Choose Your Bundle',
-    description: 'Select from our Starter, Family, or Ultimate bundles. All include streaming channels and high-speed internet.',
+    title: 'Choose Assistance Package',
+    description: 'Select the guidance package that fits your needs. Our transparent fees cover personalized support and consultations.',
   },
   {
     number: '03',
-    icon: Wifi,
-    title: 'Professional Installation',
-    description: 'Our technicians will install your fiber internet and set up your streaming service - usually within 3-5 days.',
+    icon: CheckCircle,
+    title: 'Receive Expert Guidance',
+    description: 'Get unbiased assistance navigating provider™ options, comparing services, and making informed decisions.',
   },
 ];
 
@@ -40,10 +40,10 @@ export function HowItWorks() {
           className="text-center mb-16"
         >
           <h2 className="font-display text-3xl lg:text-5xl font-bold mb-4">
-            Getting started is <span className="text-gradient">simple</span>
+            How our assistance <span className="text-gradient">works</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            From your first call to watching your favorite shows in HD, ZENSTREAM makes it seamless. Start today!
+            From consultation to guidance, we make navigating entertainment services simple. Start today!
           </p>
         </motion.div>
 

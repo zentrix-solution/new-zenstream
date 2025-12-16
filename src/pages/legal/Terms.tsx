@@ -6,9 +6,9 @@ const sections = [
     content: (
       <>
         <p>
-          By accessing or using FiberFlow's services, you agree to be bound by these Terms of Service. 
+          By accessing or using ZENSTREAM's assistance services, you agree to be bound by these Terms of Service. 
           If you do not agree to these terms, please do not use our services. These terms constitute a 
-          legally binding agreement between you and FiberFlow regarding your use of our fiber internet services.
+          legally binding agreement between you and ZENSTREAM regarding your use of our independent assistance platform.
         </p>
         <p>
           We reserve the right to update these terms at any time. Continued use of our services after 
@@ -18,18 +18,72 @@ const sections = [
     )
   },
   {
+    title: 'Independent Service Notice',
+    content: (
+      <>
+        <p>
+          <strong>IMPORTANT:</strong> ZENSTREAM is an independent third-party service assistance startup, launched in 2025, 
+          and is not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider.
+        </p>
+        <p>
+          We do NOT:
+        </p>
+        <ul className="list-disc list-inside space-y-2 mt-3">
+          <li>Operate as an internet service provider (ISP)</li>
+          <li>Sell cable, internet, or streaming plans directly</li>
+          <li>Represent or act as agents for any service provider</li>
+          <li>Have authorization or partnership agreements with providers</li>
+          <li>Provide internet connectivity or cable/streaming services</li>
+        </ul>
+        <p className="mt-4">
+          We DO provide:
+        </p>
+        <ul className="list-disc list-inside space-y-2 mt-3">
+          <li>Guidance and assistance with service selection</li>
+          <li>Support navigating entertainment service options</li>
+          <li>Educational information about various providers</li>
+          <li>Help facilitating your decision-making process</li>
+          <li>Independent consultation services</li>
+        </ul>
+      </>
+    )
+  },
+  {
     title: 'Service Description',
     content: (
       <>
         <p>
-          FiberFlow provides fiber optic internet services to residential and business customers. 
-          Our services include high-speed internet connectivity, equipment rental (including routers and modems), 
-          and related technical support services.
+          ZENSTREAM provides assistance and guidance services to help customers understand and navigate 
+          cable, internet, and streaming service options. Our services include consultations, comparisons, 
+          support, and educational guidance.
         </p>
         <p>
-          Service speeds are provided on a "up to" basis and may vary based on network conditions, 
-          equipment capabilities, and other factors. We strive to maintain optimal performance but 
-          cannot guarantee specific speeds at all times.
+          Any references to specific providers™ or services® are for educational and descriptive purposes only. 
+          Such references do not imply endorsement, affiliation, partnership, or authorization from those providers.
+        </p>
+        <p className="mt-4">
+          All trademarks, service marks, and trade names referenced belong to their respective owners.
+        </p>
+      </>
+    )
+  },
+  {
+    title: 'Fees and Charges',
+    content: (
+      <>
+        <p>
+          ZENSTREAM charges separate service fees for our assistance and guidance services. These fees are:
+        </p>
+        <ul className="list-disc list-inside space-y-2 mt-3">
+          <li>Completely independent from provider charges</li>
+          <li>Clearly communicated before you engage our services</li>
+          <li>Non-refundable under certain conditions (see Refund Policy)</li>
+          <li>Separate from any costs associated with service providers</li>
+        </ul>
+        <p className="mt-4">
+          <strong>Important:</strong> If you subscribe to services from cable, internet, or streaming providers, 
+          you will be billed directly by those providers according to their own terms and rates. ZENSTREAM 
+          cannot modify, waive, or refund provider charges.
         </p>
       </>
     )
@@ -39,75 +93,56 @@ const sections = [
     content: (
       <>
         <p>
-          To use our services, you must create an account and provide accurate, complete, and current information. 
-          You are responsible for maintaining the confidentiality of your account credentials and for all 
-          activities that occur under your account.
+          To use our assistance services, you may need to create an account and provide accurate, complete, 
+          and current information. You are responsible for maintaining the confidentiality of your account 
+          credentials and for all activities that occur under your account.
         </p>
         <p>
-          You must be at least 18 years old to create an account and subscribe to our services. 
-          Business accounts must be registered by authorized representatives of the organization.
+          You must be at least 18 years old to create an account and engage our services.
         </p>
       </>
     )
   },
   {
-    title: 'Acceptable Use Policy',
+    title: 'Privacy and Data Protection',
     content: (
       <>
-        <p>You agree not to use our services for any unlawful purpose or in violation of these terms. Prohibited activities include but are not limited to:</p>
+        <p>
+          We take your privacy seriously. ZENSTREAM will:
+        </p>
         <ul className="list-disc list-inside space-y-2 mt-3">
-          <li>Illegal file sharing or distribution of copyrighted material</li>
-          <li>Network attacks, hacking, or unauthorized access attempts</li>
-          <li>Distribution of spam, malware, or malicious content</li>
-          <li>Activities that degrade service quality for other users</li>
-          <li>Reselling or redistributing our services without authorization</li>
+          <li>NEVER request provider account passwords or login credentials</li>
+          <li>NEVER ask for sensitive provider account information</li>
+          <li>Only collect information necessary to provide our assistance services</li>
+          <li>Protect your data with industry-standard encryption (SSL, 256-bit)</li>
         </ul>
-      </>
-    )
-  },
-  {
-    title: 'Service Level Agreement',
-    content: (
-      <>
-        <p>
-          FiberFlow guarantees 99.9% network uptime for residential services and 99.99% for business services. 
-          This uptime guarantee excludes scheduled maintenance windows and circumstances beyond our control.
+        <p className="mt-4">
+          <strong>Security Notice:</strong> Never share provider passwords with anyone, including ZENSTREAM staff. 
+          Legitimate assistance does not require provider passwords.
         </p>
-        <p>
-          If we fail to meet our uptime commitments, credits will be applied to your account as follows: 
-          for each hour of unscheduled downtime exceeding our SLA, you will receive a credit equivalent to 
-          one day of service charges.
+        <p className="mt-4">
+          For complete details on data handling, please review our Privacy Policy.
         </p>
       </>
     )
   },
   {
-    title: 'Billing and Payment',
+    title: 'No Guarantees or Warranties',
     content: (
       <>
         <p>
-          Services are billed monthly in advance on your selected billing date. Payment is due within 15 days 
-          of the invoice date. We accept major credit cards, debit cards, and bank transfers.
+          ZENSTREAM provides assistance and guidance services on an "as is" and "as available" basis. We do not guarantee:
         </p>
-        <p>
-          Late payments may result in service suspension after 30 days and a late fee of $15 or 1.5% of 
-          the outstanding balance, whichever is greater. Repeated late payments may result in service termination.
-        </p>
-      </>
-    )
-  },
-  {
-    title: 'Equipment Terms',
-    content: (
-      <>
-        <p>
-          Equipment provided by FiberFlow, including routers, modems, and network terminals, remains our property. 
-          You are responsible for maintaining this equipment in good working condition and protecting it from damage, 
-          theft, or loss.
-        </p>
-        <p>
-          Upon service termination, you must return all FiberFlow equipment within 14 days. Failure to return 
-          equipment will result in charges for the replacement cost of the devices.
+        <ul className="list-disc list-inside space-y-2 mt-3">
+          <li>Specific outcomes with service providers</li>
+          <li>Provider acceptance or approval</li>
+          <li>Particular pricing or service availability</li>
+          <li>Provider service quality or performance</li>
+          <li>Resolution of provider-related issues</li>
+        </ul>
+        <p className="mt-4">
+          Our role is limited to guidance and facilitation. The contractual relationship for actual services 
+          is between you and the provider you choose.
         </p>
       </>
     )
@@ -117,13 +152,35 @@ const sections = [
     content: (
       <>
         <p>
-          FiberFlow's total liability for any claims arising from these terms or our services shall not exceed 
-          the amount you paid for services during the three months preceding the claim.
+          ZENSTREAM shall not be liable for:
         </p>
+        <ul className="list-disc list-inside space-y-2 mt-3">
+          <li>Provider service failures, outages, or quality issues</li>
+          <li>Provider billing disputes or overcharges</li>
+          <li>Provider contract terms or conditions</li>
+          <li>Installation issues or delays by providers</li>
+          <li>Any indirect, incidental, or consequential damages</li>
+        </ul>
+        <p className="mt-4">
+          Our liability is limited to the fees you paid to ZENSTREAM for assistance services.
+        </p>
+      </>
+    )
+  },
+  {
+    title: 'Provider Relationships',
+    content: (
+      <>
         <p>
-          We are not liable for indirect, incidental, special, consequential, or punitive damages, including 
-          but not limited to loss of profits, data, business opportunities, or goodwill.
+          You acknowledge and understand that:
         </p>
+        <ul className="list-disc list-inside space-y-2 mt-3">
+          <li>Any services you obtain from providers are subject to their own terms and conditions</li>
+          <li>You will have a direct contractual relationship with providers you choose</li>
+          <li>Providers will bill you directly for their services</li>
+          <li>ZENSTREAM is not a party to your provider agreements</li>
+          <li>Provider refunds must be requested directly from providers</li>
+        </ul>
       </>
     )
   },
@@ -132,13 +189,28 @@ const sections = [
     content: (
       <>
         <p>
-          Either party may terminate service with 30 days written notice. Early termination of contract plans 
-          may incur fees as specified in your service agreement. FiberFlow may terminate service immediately 
-          for violations of these terms.
+          ZENSTREAM reserves the right to terminate or suspend your access to our assistance services at any time, 
+          with or without cause, with or without notice. Reasons for termination may include violation of these 
+          terms, fraudulent activity, or abusive behavior toward our staff.
         </p>
+        <p className="mt-4">
+          Upon termination, your right to use our services will immediately cease. Refund eligibility upon 
+          termination is governed by our Refund Policy.
+        </p>
+      </>
+    )
+  },
+  {
+    title: 'Changes to Terms',
+    content: (
+      <>
         <p>
-          Upon termination, you must pay all outstanding charges and return all equipment. Refunds for 
-          prepaid services will be issued in accordance with our refund policy.
+          ZENSTREAM reserves the right to modify these Terms of Service at any time. We will post updated 
+          terms on this page with a new "Last updated" date. Your continued use of our services after changes 
+          constitutes acceptance of the modified terms.
+        </p>
+        <p className="mt-4">
+          We encourage you to review these terms periodically to stay informed of any updates.
         </p>
       </>
     )
@@ -147,8 +219,8 @@ const sections = [
     title: 'Contact Information',
     content: (
       <p>
-        For questions about these Terms of Service, please contact our legal team at{' '}
-        <a href="mailto:legal@fiberflow.com" className="text-primary hover:underline">legal@fiberflow.com</a>{' '}
+        For questions about these Terms of Service, please contact our team at{' '}
+        <a href="mailto:legal@zenstream.com" className="text-primary hover:underline">legal@zenstream.com</a>{' '}
         or call us at <a href="tel:8556837815" className="text-primary hover:underline">(855) 683-7815</a>.
       </p>
     )
@@ -159,9 +231,9 @@ export default function Terms() {
   return (
     <LegalPageLayout
       title="Terms of Service"
-      lastUpdated="December 1, 2024"
-      description="Please read these terms carefully before using FiberFlow services. By using our services, you agree to be bound by these terms."
+      lastUpdated="December 16, 2025"
       sections={sections}
+      notice="ZENSTREAM is an independent third-party service assistance startup, launched in 2025, and is not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider."
     />
   );
 }

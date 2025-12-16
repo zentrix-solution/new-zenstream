@@ -7,74 +7,74 @@ import {
 const features = [
   {
     icon: Tv,
-    title: '500+ Live Channels',
-    description: 'Watch premium TV channels including sports, movies, news, and entertainment.',
+    title: 'Service Comparison',
+    description: 'Compare streaming and cable options from multiple providers™ to find the best fit.',
     color: 'from-purple-500 to-pink-500'
   },
   {
     icon: Zap,
-    title: '10 Gbps Internet',
-    description: 'Experience lightning-fast fiber internet speeds up to 10 Gbps.',
+    title: 'Setup Assistance',
+    description: 'Get help setting up and configuring your entertainment services.',
     color: 'from-yellow-500 to-orange-500'
   },
   {
     icon: Film,
-    title: 'On-Demand Library',
-    description: 'Access thousands of movies and shows whenever you want.',
+    title: 'Plan Selection Help',
+    description: 'Expert guidance on choosing packages that match your needs.',
     color: 'from-red-500 to-rose-500'
   },
   {
     icon: Video,
-    title: '4K/8K Streaming',
-    description: 'Crystal-clear ultra HD streaming on all your favorite channels.',
+    title: 'Technical Support',
+    description: 'Troubleshooting assistance for streaming and connection issues.',
     color: 'from-indigo-500 to-violet-500'
   },
   {
     icon: MonitorPlay,
-    title: 'Multi-Device Support',
-    description: 'Stream on multiple TVs, phones, and tablets simultaneously.',
+    title: 'Device Configuration',
+    description: 'Help connecting TVs, streaming devices, and mobile apps.',
     color: 'from-blue-500 to-cyan-500'
   },
   {
     icon: Radio,
-    title: 'Premium Sports Packages',
-    description: 'Never miss a game with comprehensive sports channel packages.',
+    title: 'Independent Advice',
+    description: 'Unbiased recommendations from an independent third-party service.',
     color: 'from-green-500 to-emerald-500'
   },
   {
     icon: Wifi,
-    title: 'Whole-Home Wi-Fi',
-    description: 'Mesh technology provides strong signal throughout your entire home.',
+    title: 'Network Optimization',
+    description: 'Guidance on improving Wi-Fi coverage and connection quality.',
     color: 'from-teal-500 to-green-500'
   },
   {
     icon: Shield,
-    title: 'Advanced Security',
-    description: 'Built-in DDoS protection and firewall for safe browsing.',
+    title: 'Account Management',
+    description: 'Help managing your provider™ accounts and billing questions.',
     color: 'from-sky-500 to-blue-500'
   },
   {
     icon: Cloud,
-    title: 'Cloud DVR Included',
-    description: 'Record your favorite shows and watch them anywhere, anytime.',
+    title: 'Feature Guidance',
+    description: 'Learn how to use DVR, on-demand, and other service features.',
     color: 'from-cyan-500 to-blue-500'
   },
   {
     icon: Gamepad2,
-    title: 'Gaming Optimized',
-    description: 'Low-latency connection perfect for competitive online gaming.',
+    title: 'Gaming Setup Help',
+    description: 'Optimize your network for online gaming performance.',
     color: 'from-fuchsia-500 to-purple-500'
   },
   {
     icon: Download,
-    title: 'Unlimited Data',
-    description: 'No data caps or throttling. Stream and download without limits.',
+    title: 'Speed Diagnostics',
+    description: 'Assistance troubleshooting slow connections and performance issues.',
     color: 'from-lime-500 to-green-500'
   },
   {
     icon: Headphones,
     title: '24/7 Expert Support',
-    description: 'Call (833) 660-1996 anytime for immediate assistance.',
+    description: 'Call (855) 683-7815 anytime for immediate assistance.',
     color: 'from-amber-500 to-yellow-500'
   },
 ];
@@ -90,14 +90,14 @@ export function FeaturesGrid() {
           className="text-center mb-16"
         >
           <span className="inline-block px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
-            Complete Entertainment & Connectivity
+            Independent Assistance Services
           </span>
           <h2 className="font-display text-3xl lg:text-5xl font-bold mb-4">
-            Everything you love,{' '}
-            <span className="text-gradient">all in one bundle</span>
+            Everything you need,{' '}
+            <span className="text-gradient">expert help included</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            ZENSTREAM combines premium streaming with ultra-fast internet. Watch, game, work, and connect like never before.
+            ZENSTREAM provides comprehensive assistance for all your cable, internet, and streaming service needs—completely independent and unbiased.
           </p>
         </motion.div>
 

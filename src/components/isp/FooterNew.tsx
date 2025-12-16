@@ -151,7 +151,19 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="py-8">
+        <div className="py-8 space-y-6">
+          {/* Independence Disclaimer */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            className="p-4 rounded-lg bg-slate-800/50 border border-slate-700"
+          >
+            <p className="text-gray-400 text-sm leading-relaxed">
+              <strong className="text-white">Important Notice:</strong> ZENSTREAM is an independent third-party service assistance startup, launched in 2025, and is not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider. All trademarks belong to their respective owners. We provide guidance and support services for a separate fee.
+            </p>
+          </motion.div>
+
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <motion.p 
               initial={{ opacity: 0 }}
@@ -159,13 +171,13 @@ export function Footer() {
               viewport={{ once: true }}
               className="text-gray-500 text-sm"
             >
-              © {new Date().getFullYear()} ZENSTREAM. All rights reserved. Made with passion for entertainment.
+              © {new Date().getFullYear()} ZENSTREAM. All rights reserved. Independent assistance platform.
             </motion.p>
             
             <div className="flex items-center gap-6 text-sm">
-              <span className="text-gray-500">Nationwide Service</span>
+              <span className="text-gray-500">Independent Service</span>
               <span className="text-gray-600">•</span>
-              <span className="text-gray-500">500K+ Customers</span>
+              <span className="text-gray-500">Launched 2025</span>
             </div>
           </div>
         </div>
