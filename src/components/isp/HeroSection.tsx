@@ -111,7 +111,7 @@ export function HeroSection() {
               <a href="tel:8556837815" className="text-xl font-semibold text-primary hover:underline">
                 (855) 683-7815
               </a>
-              <span className="text-muted-foreground">- Get Assistance</span>
+              <span className="text-muted-foreground">- Call Now</span>
             </motion.div>
 
             <motion.div 
@@ -122,7 +122,7 @@ export function HeroSection() {
             >
               <Button size="lg" asChild className="text-base group">
                 <a href="tel:8556837815">
-                  Request Help
+                  Call Now
                   <motion.span
                     className="ml-2 inline-block"
                     animate={{ x: [0, 4, 0] }}
@@ -132,10 +132,10 @@ export function HeroSection() {
                   </motion.span>
                 </a>
               </Button>
-              <Button size="lg" variant="outline" asChild className="text-base group">
-                <a href="/plans" className="flex items-center gap-2">
+              <Button size="lg" variant="outline" asChild className="text-base group text-green-600 border-green-600 hover:text-green-700 hover:border-green-700">
+                <a href="tel:8556837815" className="flex items-center gap-2">
                   <Play className="w-4 h-4 group-hover:scale-110 transition-transform" />
-                  View Assistance Packages
+                  Call Now
                 </a>
               </Button>
             </motion.div>
@@ -307,6 +307,17 @@ export function HeroSection() {
           <path d="M0 120L60 110C120 100 240 80 360 70C480 60 600 60 720 65C840 70 960 80 1080 85C1200 90 1320 90 1380 90L1440 90V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="hsl(var(--background))"/>
         </svg>
       </div>
+
+      {/* Sticky Call Button */}
+      <a
+        href="tel:8556837815"
+        className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 bg-primary text-white px-6 py-3 rounded-full shadow-lg flex items-center gap-2 hover:bg-primary/90 transition-colors text-lg font-semibold"
+        style={{ boxShadow: '0 4px 24px 0 rgba(0,0,0,0.15)' }}
+        aria-label="Call Now"
+      >
+        <Phone className="w-5 h-5" />
+        Call Now
+      </a>
     </section>
   );
 }
